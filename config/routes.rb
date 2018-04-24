@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root to: "players#index"
   resources :keys
   resources :levels
   resources :players
