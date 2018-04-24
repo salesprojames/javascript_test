@@ -17,3 +17,10 @@ module JavascriptTest
     # the framework and any gems in your application.
   end
 end
+
+config.middleware.insert_before 0, "Rack::Cors" do
+    allow do
+        origins '*'
+        resource '*', :headers => :any, :methods => [:get, :post, :options]
+    end
+end
