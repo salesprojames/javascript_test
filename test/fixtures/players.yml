@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: MyString
+  x_location: 1
+  y_location: 1
+  score: 1
+
+two:
+  username: MyString
+  x_location: 1
+  y_location: 1
+  score: 1
